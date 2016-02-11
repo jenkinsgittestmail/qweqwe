@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurations>
+  <job name="kluitydfkjugdkugdfkgju">
+    <projects>
+      <project pathToFile="qwe.qwe" localDirectory=".">
+        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
+        <pathToArtefacts/>
+        <versionFiles versionFile="false"/>
+        <configs>
+          <config builder="Java ANT" platform="x86"/>
+        </configs>
+      </project>
+    </projects>
+    <scripts/>
+  </job>
+</configurations>
