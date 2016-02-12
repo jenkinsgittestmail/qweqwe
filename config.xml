@@ -13,4 +13,17 @@
     </projects>
     <scripts/>
   </job>
+  <job name="sxdtykdsrtykmstrykusw">
+    <projects>
+      <project pathToFile="asdf.sdf" localDirectory=".">
+        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkvvvins234234"/>
+        <pathToArtefacts/>
+        <versionFiles versionFile="false"/>
+        <configs>
+          <config builder="Java ANT" platform="x86"/>
+        </configs>
+      </project>
+    </projects>
+    <scripts/>
+  </job>
 </configurations>
