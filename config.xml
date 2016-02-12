@@ -13,17 +13,4 @@
     </projects>
     <scripts/>
   </job>
-  <job name="xfcgnzdgnzd">
-    <projects>
-      <project pathToFile="sdfg.dfg" localDirectory=".">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins234234"/>
-        <pathToArtefacts/>
-        <versionFiles versionFile="false"/>
-        <configs>
-          <config builder="Java ANT" platform="x86"/>
-        </configs>
-      </project>
-    </projects>
-    <scripts/>
-  </job>
 </configurations>
