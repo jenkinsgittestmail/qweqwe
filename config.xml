@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurations>
-  <job name="qweqwe">
+  <job name="liytgliytgluyfkuyruyr">
     <projects>
       <project pathToFile="qwe.qwe" localDirectory=".">
         <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
@@ -13,23 +13,10 @@
     </projects>
     <scripts/>
   </job>
-  <job name="sdefhsdf">
+  <job name="qweqweyyuoiuyoiu">
     <projects>
       <project pathToFile="qwe.qwe" localDirectory=".">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
-        <pathToArtefacts/>
-        <versionFiles versionFile="false"/>
-        <configs>
-          <config builder="Java ANT" platform="x86"/>
-        </configs>
-      </project>
-    </projects>
-    <scripts/>
-  </job>
-  <job name="zsdfjhzasdrtgjsfgjdfgjdgfjbhdfg">
-    <projects>
-      <project pathToFile="qwe.qwe" localDirectory=".">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins11111111"/>
+        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkinstyityu"/>
         <pathToArtefacts/>
         <versionFiles versionFile="false"/>
         <configs>
