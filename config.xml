@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurations>
-  <job name="bbbbbbbbbbbbbb">
+  <job name="1">
     <projects>
-      <project pathToFile="asd.war" localDirectory=".">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins234234"/>
+      <project pathToFile="asdf.asdf" localDirectory=".">
+        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
         <pathToArtefacts/>
         <versionFiles versionFile="false"/>
         <configs>
@@ -13,23 +13,10 @@
     </projects>
     <scripts/>
   </job>
-  <job name="ccccccccccc">
+  <job name="2">
     <projects>
-      <project pathToFile="asd.war" localDirectory=".">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins.git"/>
-        <pathToArtefacts/>
-        <versionFiles versionFile="false"/>
-        <configs>
-          <config builder="Java ANT" platform="x86"/>
-        </configs>
-      </project>
-    </projects>
-    <scripts/>
-  </job>
-  <job name="dddddddddddddd">
-    <projects>
-      <project pathToFile="asd.war" localDirectory=".">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins.git"/>
+      <project pathToFile="sdfg.dfg" localDirectory=".">
+        <repository type="Git" url="https://github.com/jenkinsgittestmail/re777po_for_jenkins.git"/>
         <pathToArtefacts/>
         <versionFiles versionFile="false"/>
         <configs>
