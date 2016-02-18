@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurations>
-  <job name="123123123123">
+  <job name="1">
     <projects>
-      <project pathToFile="asdf.asdf" localDirectory=".">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
+      <project pathToFile="1.qwe" localDirectory=".">
+        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins1"/>
         <pathToArtefacts/>
         <versionFiles versionFile="false"/>
         <configs>
