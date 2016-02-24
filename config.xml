@@ -44,8 +44,8 @@
           <config builder="Java MAVEN" platform="x86"/>
         </configs>
       </project>
-      <project pathToFile="retr.retr" localDirectory="retroit">
-        <repository type="Git" url="https://github.com/square/retrofit"/>
+      <project pathToFile="retr.retr" localDirectory="jrepo">
+        <repository type="Git" url="https://github.com/jenkinsgittestmail/jrepo"/>
         <pathToArtefacts/>
         <versionFiles versionFile="false"/>
         <configs>
