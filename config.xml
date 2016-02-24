@@ -10,6 +10,14 @@
           <config builder="Java MAVEN" platform="x86"/>
         </configs>
       </project>
+      <project pathToFile="qwe.qwe" localDirectory="23/jrepo">
+        <repository type="Git" url="https://github.com/jenkinsgittestmail/jrepo"/>
+        <pathToArtefacts/>
+        <versionFiles versionFile="false"/>
+        <configs>
+          <config builder="Java MAVEN" platform="x86"/>
+        </configs>
+      </project>
     </projects>
     <scripts/>
   </job>
