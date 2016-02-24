@@ -13,4 +13,25 @@
     </projects>
     <scripts/>
   </job>
+  <job name="25">
+    <projects>
+      <project pathToFile="qwe.qwe" localDirectory="1">
+        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
+        <pathToArtefacts/>
+        <versionFiles versionFile="false"/>
+        <configs>
+          <config builder="Java ANT" platform="x86"/>
+        </configs>
+      </project>
+      <project pathToFile="qwe.qwe" localDirectory="2">
+        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
+        <pathToArtefacts/>
+        <versionFiles versionFile="false"/>
+        <configs>
+          <config builder="Java ANT" platform="x86"/>
+        </configs>
+      </project>
+    </projects>
+    <scripts/>
+  </job>
 </configurations>
