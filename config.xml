@@ -34,4 +34,25 @@
     </projects>
     <scripts/>
   </job>
+  <job name="76">
+    <projects>
+      <project pathToFile="qwe.qwe" localDirectory=".">
+        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
+        <pathToArtefacts/>
+        <versionFiles versionFile="false"/>
+        <configs>
+          <config builder="Java MAVEN" platform="x86"/>
+        </configs>
+      </project>
+      <project pathToFile="retr.retr" localDirectory="retroit">
+        <repository type="Git" url="https://github.com/square/retrofit"/>
+        <pathToArtefacts/>
+        <versionFiles versionFile="false"/>
+        <configs>
+          <config builder="Java MAVEN" platform="x86"/>
+        </configs>
+      </project>
+    </projects>
+    <scripts/>
+  </job>
 </configurations>
