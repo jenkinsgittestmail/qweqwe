@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurations>
-  <job name="pro1">
+  <job name="test22">
     <projects>
-      <project pathToFile="qweeeeeeeeee.qwe" localDirectory=".">
+      <project pathToFile="qwe.qwe" localDirectory="test22">
         <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
         <pathToArtefacts/>
         <versionFiles versionFile="false"/>
