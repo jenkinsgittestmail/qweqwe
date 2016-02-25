@@ -1,58 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurations>
-  <job name="23">
-    <projects>
-      <project pathToFile="qwe.qwe" localDirectory="23">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
-        <pathToArtefacts/>
-        <versionFiles versionFile="false"/>
-        <configs>
-          <config builder="Java MAVEN" platform="x86"/>
-        </configs>
-      </project>
-      <project pathToFile="qwe.qwe" localDirectory="23/jrepo">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/jrepo"/>
-        <pathToArtefacts/>
-        <versionFiles versionFile="false"/>
-        <configs>
-          <config builder="Java MAVEN" platform="x86"/>
-        </configs>
-      </project>
-    </projects>
-    <scripts/>
-  </job>
-  <job name="25">
+  <job name="1">
     <projects>
       <project pathToFile="qwe.qwe" localDirectory="1">
         <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
         <pathToArtefacts/>
         <versionFiles versionFile="false"/>
         <configs>
-          <config builder="Java ANT" platform="x86"/>
-        </configs>
-      </project>
-      <project pathToFile="qwe.qwe" localDirectory="2">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
-        <pathToArtefacts/>
-        <versionFiles versionFile="false"/>
-        <configs>
-          <config builder="Java ANT" platform="x86"/>
-        </configs>
-      </project>
-    </projects>
-    <scripts/>
-  </job>
-  <job name="76">
-    <projects>
-      <project pathToFile="qwe.qwe" localDirectory=".">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
-        <pathToArtefacts/>
-        <versionFiles versionFile="false"/>
-        <configs>
           <config builder="Java MAVEN" platform="x86"/>
         </configs>
       </project>
-      <project pathToFile="retr.retr" localDirectory="jrepo">
+      <project pathToFile="qw2e.qwe" localDirectory="2">
         <repository type="Git" url="https://github.com/jenkinsgittestmail/jrepo"/>
         <pathToArtefacts/>
         <versionFiles versionFile="false"/>
