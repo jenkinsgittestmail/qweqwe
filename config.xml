@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurations>
-  <job name="proj1">
+  <job name="pro1">
     <projects>
       <project pathToFile="qwe.qwe" localDirectory=".">
         <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
-        <pathToArtefacts/>
-        <versionFiles versionFile="false"/>
-        <configs>
-          <config builder="Java MAVEN" platform="x86"/>
-        </configs>
-      </project>
-      <project pathToFile="jrepo.qwe" localDirectory=".2">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/jrepo"/>
         <pathToArtefacts/>
         <versionFiles versionFile="false"/>
         <configs>
