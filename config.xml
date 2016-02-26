@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurations>
-  <job name="test22">
+  <job name="config_test">
     <projects>
-      <project pathToFile="qwe.qwe" localDirectory="test22">
+      <project pathToFile="projectBuild.too" localDirectory=".localModuleDirectory">
         <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
-        <pathToArtefacts/>
+        <pathToArtefacts>
+          <file>pathToArtifacts</file>
+        </pathToArtefacts>
         <versionFiles versionFile="false"/>
         <configs>
-          <config builder="Java MAVEN" platform="x86"/>
+          <config builder="Java MAVEN" platform="x86" configuration="Release"/>
         </configs>
       </project>
     </projects>
