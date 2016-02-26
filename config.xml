@@ -10,6 +10,7 @@
         <versionFiles versionFile="false"/>
         <configs>
           <config builder="Java MAVEN" platform="x86" configuration="Release"/>
+          <config builder="MSBuild 3.5" platform="Any CPU"/>
         </configs>
       </project>
     </projects>
