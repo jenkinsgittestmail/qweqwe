@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configurations>
-  <job name="config_test">
+  <job name="my_config">
     <projects>
-      <project pathToFile="projectBuild.too" localDirectory=".localModuleDirectory">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
+      <project pathToFile="projecttobuild.too" localDirectory="localModuleDirectory">
+        <repository type="Git" url="https://github.com/jenkinsgittestmail/projectUrl"/>
         <pathToArtefacts>
           <file>pathToArtifacts</file>
+          <file>pathToArtifacts1</file>
         </pathToArtefacts>
-        <versionFiles versionFile="false"/>
+        <versionFiles versionFile="true">
+          <file>versionFiles</file>
+          <file>versionFiles1</file>
+        </versionFiles>
         <configs>
-          <config builder="Java MAVEN" platform="x86" configuration="Release"/>
-          <config builder="MSBuild 3.5" platform="Any CPU"/>
+          <config builder="Java ANT" platform="x86" configuration="Release"/>
+          <config builder="Java MAVEN" platform="Any CPU"/>
         </configs>
       </project>
     </projects>
