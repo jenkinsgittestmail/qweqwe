@@ -13,32 +13,4 @@
     </projects>
     <scripts/>
   </job>
-  <job name="projectName">
-    <projects>
-      <project pathToFile="projectBuild.too" localDirectory=".localModuleDirectory">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
-        <pathToArtefacts>
-          <file>pathToArtifacts1</file>
-          <file>pathToArtifacts2</file>
-        </pathToArtefacts>
-        <versionFiles versionFile="true">
-          <file>versionFiles1</file>
-          <file>versionFiles2</file>
-        </versionFiles>
-        <configs>
-          <config builder="Java MAVEN" platform="Any CPU" configuration="Release"/>
-          <config builder="Java ANT" platform="x86"/>
-        </configs>
-      </project>
-      <project pathToFile="qwe.qwe" localDirectory=".1">
-        <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins_project2"/>
-        <pathToArtefacts/>
-        <versionFiles versionFile="false"/>
-        <configs>
-          <config builder="Java ANT" platform="x86"/>
-        </configs>
-      </project>
-    </projects>
-    <scripts/>
-  </job>
 </configurations>
