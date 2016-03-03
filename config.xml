@@ -2,7 +2,7 @@
 <configurations>
   <job name="1">
     <projects>
-      <project pathToFile="qwe.qwe" localDirectory=".">
+      <project pathToFile="q2we.qwe" localDirectory=".">
         <repository type="Git" url="https://github.com/jenkinsgittestmail/repo_for_jenkins"/>
         <pathToArtefacts/>
         <versionFiles versionFile="false"/>
